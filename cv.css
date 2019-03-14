@@ -1,0 +1,61 @@
+
+#aligner_titre{
+    text-align : center;
+    border-radius: 10px 5px 10px 5px;
+    box-shadow: 6px 6px 0px rgb(161, 161, 161);
+    background-color: rgb(0, 45, 112);
+    font-family: 'BallparkWeiner', serif;
+    color: whitesmoke;
+}
+body
+{
+    background-color: rgb(211, 211, 211);
+    width: 240;
+    margin-left: 10px;
+}
+#color_back
+{
+    color : black;
+    border-radius: 10px 5px 10px 5px;
+    box-shadow: 6px 6px 0px rgb(161, 161, 161);
+    font-family: 'BallparkWeiner', serif;
+    font-size : 19px;
+}
+
+#style_sport, #style_loisir, #style_voyage, #style_centre_D, #style_inf, #style_formation
+{
+    border-radius: 10px 5px 10px 5px;
+    box-shadow: 6px 6px 0px rgb(161, 161, 161);
+    font-style: inherit;
+    font-family: 'BallparkWeiner', serif;
+    font-size: 19px;
+}
+#style_sport, #style_loisir, #color_back, #style_langu
+{
+    background-color: rgb(241, 234, 234);
+}
+#style_formation, #style_inf, #style_centre_D, #style_voyage
+{
+    background-color: rgb(171, 176, 180);
+}
+#style_img > #img
+{
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    float: right;
+    margin-top: 20px;
+}
+#style_langu
+{
+    border-radius: 10px 5px 10px 5px;
+    box-shadow: 6px 6px 0px rgb(161, 161, 161);
+}
+footer
+{
+    text-align: center;
+    background-color: rgb(77, 76, 82);
+    border-radius: 20px 20px 20px 20px;
+    color : whitesmoke;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "curuculum vitea",
+  "main": "cv.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MYsakhite11/firstprojectever.git"
+  },
+  "keywords": [
+    "awandiaye"
+  ],
+  "author": "sakhite",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MYsakhite11/firstprojectever/issues"
+  },
+  "homepage": "https://github.com/MYsakhite11/firstprojectever#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "lite-server": "^2.4.0",
+    "popper.js": "^1.14.7"
+  }
+}

@@ -7,11 +7,24 @@
     font-family: 'BallparkWeiner', serif;
     color: whitesmoke;
 }
+@media (max-width: 767px) {
+    img {
+      display: table;
+      margin: 0 auto;
+    }
+ }
 body
 {
     background-color: rgb(211, 211, 211);
     width: 240;
     margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #color_back
 {
@@ -38,13 +51,19 @@ body
 {
     background-color: rgb(171, 176, 180);
 }
+#style_img
+{
+    margin: auto;
+    display : flex;
+    align-items: center;
+    flex-wrap : wrap;
+}
 #style_img > #img
 {
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
-    float: right;
     margin-top: 20px;
 }
 #style_langu
